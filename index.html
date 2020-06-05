@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style media="screen">
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+
+
+
+  <!-- 1) header ---------------------------------------------------------------------------- -->
+
+  <header id="head ">
+    <div class="container">
+      <div class="logo">
+        <img class="img-fluid" src="img/logo.png" alt="logo infinity projects">
+      </div>
+    </div>
+  </header>
+
+
+
+
+    <!-- 3) quote ---------------------------------------------------------------------------- -->
+
+  <section>
+    <div class="container">
+      <div class="quote">
+        <h4><i>"Vision is the art of seeing what is invisible to others  "</i></h4>
+        <h6>- Jonathan Swift -</h6>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 2) about ---------------------------------------------------------------------------- -->
+
+
+  <section id="about">
+    <div class="container">
+
+
+      <div class="title">
+        <h1><b>Infinity Projects is een realisatie om op een unieke wijze het rouwproces te benaderen.</b></h1> <br>
+
+      </div>
+
+      <hr style="border-color: #ca2c92; height:3px;">
+
+      <br><br>
+<div class="row">
+  <div class="col-md-8 col-sm-6 col-xs-12 ">
+    <div class="copy">
+      <p>Wat als je iemand wil herdenken maar het ontbreekt je aan ideeën? <br><br>
+        Infinity Projects rijkt nieuwe mogelijkheden aan.</p>
+    </div>
+
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="">
+      <img class="img-fluid" src="img/about.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+    </div>
+  </section>
+
+
+  <!-- 4) contact ---------------------------------------------------------------------------- -->
+
+  <section id="contact" >
+    <div class="container">
+      <h1 style="color: #6c5353ff" class="title">Neem contact op</h1>
+      <br>
+    <form class="contact-form row">
+       <div class="form-field col-lg-3 col-md-6 col-sm-12 x-50">
+          <input id="name" class="input-text js-input" type="text" required>
+          <label class="label" for="name">Naam</label>
+       </div>
+       <div class="form-field col-lg-3 col-md-6 col-sm-12 x-50">
+          <input id="email" class="input-text js-input" type="email" required>
+          <label class="label" for="email">E-mail</label>
+       </div>
+       <div class="form-field col-lg-3 col-md-6 col-sm-12 x-100">
+          <input id="message" class="input-text js-input" type="text" required>
+          <label class="label" for="message">Booschap</label>
+       </div>
+       <div class="form-field col-lg-3 col-md-6 col-sm-12 x-100 align-center">
+          <input class="submit-btn" type="submit" value="Verzenden">
+       </div>
+    </form>
+    </div>
+  </section>
+
+  <!-- 5) footer ---------------------------------------------------------------------------- -->
+
+  <footer style="background-color: #6c5353ff;" id="foot">
+
+<div class="container">
+  <div class="footer-copy">
+  					<p style="color: #fff;">© 2020 Infinity Projects. All Rights Reserved.</p>	
+  					</div>
+</div>
+
+  </footer>
+
+  <!-- 6) JS ---------------------------------------------------------------------------- -->
+
+  <script src="js/scripts.js"></script>
+  <script>
+  $( '.js-input' ).keyup(function() {
+if( $(this).val() ) {
+   $(this).addClass('not-empty');
+} else {
+   $(this).removeClass('not-empty');
+}
+});
+  </script>
+</body>
+
+</html>

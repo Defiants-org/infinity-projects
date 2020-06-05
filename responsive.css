@@ -1,0 +1,112 @@
+/* large screen desktop --------------------------------------------------------- */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  header {
+    height: 100vh;
+  }
+
+  #about {
+    height: 100vh;
+  }
+}
+
+/* small screen desktop --------------------------------------------------------- */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  header {
+    height: 100vh;
+  }
+
+  #about {
+    height: 100vh;
+  }
+}
+
+/* large screen tablet --------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 80vh;
+  }
+
+  #about {
+    height: 80vh;
+  }
+}
+
+/* small screen tablet --------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  header {
+    height: 60vh;
+  }
+
+  #about {
+    height: 60vh;
+  }
+
+  #about .row {
+    padding-top: 40px;
+  }
+
+  #about h1 {
+    font-size: 25px;
+  }
+
+  #about p {
+    font-size: 20px;
+  }
+}
+
+/* large screen mobile --------------------------------------------------------- */
+@media only screen and (max-width: 425px) {
+  header {
+    height: 40vh;
+  }
+
+  .quote {
+    padding: 1px;
+  }
+
+  #about {
+    height: 110vh;
+  }
+
+  #about .title {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #about h1 {
+    font-size: 30px;
+  }
+
+  #about p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #about img {
+    height: 200px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #contact h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+/* small screen mobile --------------------------------------------------------- */
+@media only screen and (max-width: 320px) {
+  #about {
+    height: 103vh;
+  }
+
+  #about h1 {
+    font-size: 25px;
+  }
+
+  #about p {
+    font-size: 17px;
+    text-align: center;
+  }
+}
