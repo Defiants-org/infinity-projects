@@ -16,29 +16,31 @@
   }
 
   #about {
-    height: 100vh;
+      min-height: 80%;
   }
 }
 
 /* large screen tablet --------------------------------------------------------- */
 @media (min-width: 769px) and (max-width: 1024px) {
   header {
-    height: 80vh;
+    min-height: 60%;
   }
 
   #about {
-    height: 80vh;
+    min-height: 80%;
+
   }
 }
 
 /* small screen tablet --------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header {
-    height: 60vh;
+    min-height: 60%;
   }
 
   #about {
-    height: 60vh;
+    min-height: 60%;
+    text-align: left;
   }
 
   #about .row {
@@ -51,13 +53,25 @@
 
   #about p {
     font-size: 20px;
-  }
+      padding-top: 50px;
+      padding-right: 1px;
+    }
+
+    #contact h1 {
+    text-align: left;
+    padding-bottom: 50px;
+    font-size: 25px;
+
 }
+  }
+
+
+
 
 /* large screen mobile --------------------------------------------------------- */
 @media only screen and (max-width: 425px) {
   header {
-    height: 40vh;
+    min-height: 40%;
   }
 
   .quote {
@@ -97,6 +111,10 @@
 
 /* small screen mobile --------------------------------------------------------- */
 @media only screen and (max-width: 320px) {
+  header {
+    min-height: 40%;
+  }
+
   #about {
     height: 103vh;
   }
@@ -108,5 +126,14 @@
   #about p {
     font-size: 17px;
     text-align: center;
+      padding-top: 1px;
+      padding-right: 1px;
+
   }
+
+  #foot p {
+    text-align: center;
+    padding-bottom: 1px;
+    font-size: 17px !important;
+}
 }
