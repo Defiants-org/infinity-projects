@@ -12,11 +12,11 @@
 /* small screen desktop --------------------------------------------------------- */
 @media (min-width: 1025px) and (max-width: 1440px) {
   header {
-    height: 100vh;
+    min-height: 110%;
   }
 
   #about {
-      min-height: 80%;
+      min-height: 90%;
   }
 }
 
