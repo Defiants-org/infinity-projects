@@ -75,7 +75,7 @@ header
 -----------------*/
 header {
   width: 100%;
-  min-height: 110%;
+
   background-image: linear-gradient(rgb(227, 219, 219), rgb(237, 230, 230));
   text-align: center;
   padding: 30px;
@@ -103,7 +103,7 @@ quote
 about
 -----------------*/
 #about {
-  min-height: 120%;
+
   color: #6c5353ff;
   background-image: linear-gradient(rgb(237, 230, 230), rgb(244, 244, 244));
   padding: 30px;
